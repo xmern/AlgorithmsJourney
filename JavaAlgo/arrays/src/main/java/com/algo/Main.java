@@ -2,17 +2,21 @@ package com.algo;
 
 public class Main {
     public static void main(String[] args) {
-        int[] x = {2,7,11,15};
-        int[] result = TwoSum.twoSumBruteForce(x, 9);
+        int[] result;
+        result = TwoSum.twoSumBruteForce(new int[]{2,7,11,15}, 9);
         for (int i : result) {
-            System.out.print(i); 
+            System.out.print(i);
+            System.out.print(", ");
         }
         System.out.println();
-        int[] y = {3, 2, 4};
-        result = TwoSum.twoSumBruteForce(y, 6);
-        for (int i : result) {
-            System.out.print(i); 
-        }        
 
+        System.out.println("two sum optimized");
+
+        result = TwoSum.twoSumBruteForce(new int[]{18, 20, 30 , 24, 3, 9}, 12);
+        for (int i : result) {
+            System.out.print(i);
+            System.out.print(", ");
+        }
+        System.out.println();
     }
 }
