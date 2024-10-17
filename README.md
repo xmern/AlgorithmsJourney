@@ -7,3 +7,5 @@ Here are links to the guides and roadmap
 
 github repo 
 https://github.com/xmern/AlgorithmsJourney.git
+
+see solvedQuestions.txt to see solved questions with links to thier leetcode pages
