@@ -22,7 +22,11 @@ public class Main {
         // System.out.println();
         //System.out.print("floor");
         //System.out.println(Math.floorDiv(-5, 2));
-        int[] x = QuickSort.qSort(new int[]{3,4,5,6,77,99,76,45,123,45,66,88,1,2});
-        System.out.println(Arrays.toString(x));
+        // int[] x = QuickSort.qSort(new int[]{3,4,5,6,77,99,76,45,123,45,66,88,1,2});
+        // System.out.println(Arrays.toString(x));
+        boolean result = IsAnagram.isAnagram("racecar","carrace");
+        //boolean result = IsAnagram.isAnagram("jar","jam");
+        //"racecar".length()-1
+        System.out.println(result);
     }
 }
